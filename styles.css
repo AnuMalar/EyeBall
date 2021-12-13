@@ -16,7 +16,7 @@ body {
 
 .eyes {
   position:fixed;
-  top:23%;
+  top:25%;
   right:0.5%;
   transform: translateY(-50%);
   width: 100%;
