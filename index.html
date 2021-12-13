@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+</head>
+  <h1 id="ted">
+     <marquee width="1000%" direction="right" height="1000px" behavior="scroll" scrollamount="30">Teddy Bear </marquee>
+
+  </h1>
+  <body>
+     <div class="center">
+    <div class="heart">
+    </div>
+  </div>
+    
+  
+   <style> 
+        body{
+        height: 800px;
+        width:700px;
+        background-image: url('./clipart57951.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        }
+        heart {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transform: rotate(45deg);
+  animation: animateHeart 1.2s infinite;
+        }
+ .before, .after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .before {
+    left: -25px;
+  }
+  
+  after {
+    top: -25px;
+  }
+
+
+@keyframes animateHeart {
+  0% {
+    transform: rotate(45deg) scale(0.8);
+  }
+  5% {
+    transform: rotate(45deg) scale(0.9);
+  }
+  10% {
+    transform: rotate(45deg) scale(0.8);
+  }
+  15% {
+    transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(0.8);
+  }
+  100% {
+    transform: rotate(45deg) scale(0.8);
+  }
+}
+
+
+
+body {
+  padding: 5rem;
+  background-color: #f44336;
+  height: calc(100vh - 10rem);
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+      
+   </style>
+
+    <div class="eyes">
+
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
+    </div>
+
+    </body>
+<script src="./eyes.js"></script>
+
+</html>
+  
+
+
